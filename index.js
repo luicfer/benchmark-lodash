@@ -20,7 +20,7 @@ suits.forEach(function(it){
     now.on('cycle', function(event) {
         stream.write(String(event.target+'\n'));
     }).on('complete', function() {
-        stream.write('Fastest is ' + this.filter('fastest').pluck('name') + '\n');
+        stream.write(this.filter('fastest').pluck('name') + ' is faster\n');
         stream.write('```\n');
     });
     now.run();
