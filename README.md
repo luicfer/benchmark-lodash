@@ -7,13 +7,19 @@ node version : v1.6.3
 ```
 ## forEach
 ```
-lodash#forEach x 897,780 ops/sec ±4.94% (78 runs sampled)
-native#forEach x 231,859 ops/sec ±1.98% (80 runs sampled)
+lodash#forEach x 1,151,542 ops/sec ±2.21% (85 runs sampled)
+native#forEach x 231,432 ops/sec ±2.72% (81 runs sampled)
 lodash#forEach is faster
+```
+## indexOf
+```
+lodash#indexOf x 5,864,170 ops/sec ±2.48% (79 runs sampled)
+native#indexOf x 8,657,558 ops/sec ±2.00% (79 runs sampled)
+native#indexOf is faster
 ```
 ## map
 ```
-lodash#map x 835,007 ops/sec ±1.96% (82 runs sampled)
-native#map x 204,986 ops/sec ±2.11% (82 runs sampled)
+lodash#map x 919,411 ops/sec ±2.33% (82 runs sampled)
+native#map x 226,308 ops/sec ±2.29% (80 runs sampled)
 lodash#map is faster
 ```
